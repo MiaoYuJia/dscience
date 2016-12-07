@@ -1,0 +1,17 @@
+[16:21:48] 133709x4818 matrix with 595608 entries loaded from data/train-brand.os.session_count.appid
+[16:21:48] 33580x4818 matrix with 152065 entries loaded from data/test-brand.os.session_count.appid
+[0]	eval-auc:0.887391	eval-error:0.029124	train-auc:0.901112	train-error:0.028637
+[1]	eval-auc:0.887767	eval-error:0.028648	train-auc:0.903405	train-error:0.027642
+[2]	eval-auc:0.847466	eval-error:0.033294	train-auc:0.843565	train-error:0.033708
+[3]	eval-auc:0.852482	eval-error:0.033264	train-auc:0.8632	train-error:0.033102
+[4]	eval-auc:0.85933	eval-error:0.033353	train-auc:0.860711	train-error:0.033266
+[5]	eval-auc:0.853444	eval-error:0.03925	train-auc:0.863814	train-error:0.038808
+[6]	eval-auc:0.844515	eval-error:0.03785	train-auc:0.851088	train-error:0.037163
+[7]	eval-auc:0.845181	eval-error:0.040709	train-auc:0.852202	train-error:0.040753
+[8]	eval-auc:0.8555	eval-error:0.041185	train-auc:0.861307	train-error:0.041074
+[9]	eval-auc:0.849295	eval-error:0.040977	train-auc:0.858288	train-error:0.0407
+[10]	eval-auc:0.852618	eval-error:0.048332	train-auc:0.863045	train-error:0.048276
+[11]	eval-auc:0.852746	eval-error:0.045473	train-auc:0.865147	train-error:0.044447
+[12]	eval-auc:0.851478	eval-error:0.045444	train-auc:0.863993	train-error:0.04444
+[13]	eval-auc:0.857108	eval-error:0.045116	train-auc:0.861588	train-error:0.044515
+[14]	eval-auc:0.857121	eval-error:0.044759	train-auc:0.861541	train-error:0.043969

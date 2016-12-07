@@ -1,0 +1,17 @@
+[16:21:42] 133709x4764 matrix with 661603 entries loaded from data/train-geo.brand.os.session_count
+[16:21:42] 33580x4764 matrix with 166028 entries loaded from data/test-geo.brand.os.session_count
+[0]	eval-auc:0.88626	eval-error:0.028976	train-auc:0.903993	train-error:0.028644
+[1]	eval-auc:0.881521	eval-error:0.028708	train-auc:0.900312	train-error:0.028764
+[2]	eval-auc:0.889428	eval-error:0.028946	train-auc:0.904278	train-error:0.028809
+[3]	eval-auc:0.865725	eval-error:0.030673	train-auc:0.8811	train-error:0.030275
+[4]	eval-auc:0.854057	eval-error:0.045205	train-auc:0.865462	train-error:0.043213
+[5]	eval-auc:0.839765	eval-error:0.059083	train-auc:0.843521	train-error:0.05681
+[6]	eval-auc:0.78042	eval-error:0.110095	train-auc:0.77937	train-error:0.108429
+[7]	eval-auc:0.691636	eval-error:0.231239	train-auc:0.694405	train-error:0.231765
+[8]	eval-auc:0.624809	eval-error:0.190381	train-auc:0.621798	train-error:0.190578
+[9]	eval-auc:0.605371	eval-error:0.342734	train-auc:0.60676	train-error:0.338399
+[10]	eval-auc:0.665487	eval-error:0.261286	train-auc:0.670456	train-error:0.262062
+[11]	eval-auc:0.610465	eval-error:0.300238	train-auc:0.623068	train-error:0.298372
+[12]	eval-auc:0.63154	eval-error:0.368404	train-auc:0.632985	train-error:0.365084
+[13]	eval-auc:0.590248	eval-error:0.282132	train-auc:0.586946	train-error:0.285433
+[14]	eval-auc:0.620509	eval-error:0.306403	train-auc:0.626698	train-error:0.303787
