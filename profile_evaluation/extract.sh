@@ -1,8 +1,14 @@
-hadoop fs -rmr hdfs://hadoopcluster/user/yujia.miao/tmp/result
+hour=$1
 
-inputDate=2016/11/25
+#旅游行业
+seed=/user/yujia.miao/ctr_reach/seed/pyid
+out=/user/yujia.miao/ctr_reach/result
 
-num=3 
+
+
+inputDate=2016/11/23
+
+num=2 
 preday_date=`date -d "0 day" +%Y/%m/%d`
 preday_date=$inputDate
 str_date=$preday_date
@@ -16,11 +22,20 @@ done
 
 echo $str_date
 
-#旅游行业
-seed=/user/yujia.miao/ctr_reach/seed/pyid
+if [ -z "${hour}" ];then
 imp=/user/root/flume/express/{$str_date}/*/imp*
 click=/user/root/flume/express/{$str_date}/*/click*
-out=/user/yujia.miao/ctr_reach/result
+else
+imp=/user/root/flume/express/{$str_date}/$hour/imp*
+click=/user/root/flume/express/{$str_date}/$hour/click*
+fi
+
+echo $imp
+echo $click
+
+
+hadoop fs -rmr $out
+
 pig -f test.pig \
 	-param seed=$seed \
 	-param imp=$imp \
